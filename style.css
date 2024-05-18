@@ -1,0 +1,29 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+#WhiteScreen {
+  pointer-events: none;
+  display: block;
+  transition: all 1s ease;
+  opacity: 0;
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+#loading {
+  display: flex;
+  transition: all 1s ease;
+  background-color: #ffbabb;
+  color: white;
+  font-size: 1.5rem;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
