@@ -178,16 +178,13 @@ var ImgsGroup;
 var imgs = []
 var amount = 23;
 
-for (let i = 0; i < amount; i++)
-	imgs.push("imgs/" + i+1 + ".png")
-
+for (let i = 1; i <= amount; i++)
+	imgs.push("https://abdallah-alwarawreh.github.io/Kikocchii-Birthday/imgs/" + i + ".png")
 
 function loadimages(){
 	ImgsGroup = new THREE.Group();
 	ImgsGroup.position.set(0, -2, 0)
 	// load images from folder imgs/x.png
-	// make the images go around the gift in a circle with radius of 6
-	// make the images rotate in a circle with radius of 6
 	const textureloader = new THREE.TextureLoader();
 	for (let i = 0; i < imgs.length; i++){
 		textureloader.load(imgs[i], function (texture) {
@@ -198,7 +195,7 @@ function loadimages(){
 			const geometry = RoundedRectangle(7,7,2,5)
 			const mesh = new THREE.Mesh(geometry, material);
 			
-			mesh.position.set(Math.cos(i * (Math.PI * 2 / imgs.length)) * 25, 0, Math.sin(i * (Math.PI * 2 / imgs.length)) * 25);
+			mesh.position.set(Math.cos(i * (Math.PI * 2 / imgs.length)) * 30, 0, Math.sin(i * (Math.PI * 2 / imgs.length)) * 30);
 			mesh.rotation.set(0, 0, Math.PI * 2 / imgs.length);
 			mesh.lookAt(gift.position);
 			
