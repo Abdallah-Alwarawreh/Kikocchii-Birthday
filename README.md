@@ -25,7 +25,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 *  Berry
 *  [Sydboy](https://www.instagram.com/sydboyu/)
 *  [Smellvin](https://www.instagram.com/oraclumi/)
-*  Generik_slayer 
+*  [Generik_slayer](https://instagram.com/g3nerik_art/) 
 *  Larma
 *  [Poño](https://www.instagram.com/ppppppponx)
 *  [Pilkdrinkin](https://www.instagram.com/pilk.drinkin) 
