@@ -32,7 +32,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 *  [Gin](https://www.instagram.com/ginnskii/)
 *  [Bocchi](https://www.instagram.com/the_real_bocchi/)
 *  Teyoid
-*  Sword
+*  [Sword](https://www.instagram.com/jackswordson71)
 *  [Storm](https://www.instagram.com/storm132_)
 *  [Link](https://www.instagram.com/li.n.k)
 *  [Pee](https://www.instagram.com/peepyon_)
