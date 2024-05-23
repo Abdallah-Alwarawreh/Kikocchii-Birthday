@@ -43,7 +43,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 *  [TonyJM](https://www.instagram.com/tonyjm2.0/)
 *  [Joe](https://www.instagram.com/jm.mccray/)
 *  [supergamerdz](https://instagram.com/super_gamerdz) 
-*  [bruhboh](https://www.instagram.com/bruh.boh/)
+*  [bruhboh](https://youtu.be/dQw4w9WgXcQ?si=hEKgqyQDBrSIHV75)
 *  [Destiny](https://www.instagram.com/destiny.ctrl/)
 *  Gift voxel model by [bong_voxel](https://sketchfab.com/3d-models/gift-01-fee6804ad805448ca5cf29f85cb722ca) 
 
