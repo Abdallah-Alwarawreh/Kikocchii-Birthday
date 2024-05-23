@@ -15,36 +15,36 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 **Credits**
 
 *  Developed by Abdallah Alwarawreh
-*  Hosted by Wheatzies
+*  Hosted by [Wheatzies](https://www.instagram.com/wheatzies/)
 *  Cloudy
-*  Poipoi
+*  [Poipoi](https://www.instagram.com/poipoipoipoipoipoipoipii/)
 *  Soop
 *  Gwa
 *  Slimycracker
 *  Swalmi
 *  Berry
-*  Sydboy
+*  [Sydboy](https://www.instagram.com/sydboyu/)
 *  Smellvin
 *  Generik_slayer 
 *  Larma
 *  Poño
 *  Pilkdrinkin 
-*  Gin
+*  [Gin](https://www.instagram.com/ginnskii/)
 *  Bocchi
 *  Teyoid
 *  Sword
-*  Storm
+*  [Storm](https://www.instagram.com/storm132_)
 *  Link
 *  Pee
 *  Homie
 *  Yokaeru 
 *  Drimi
-*  Bianca
-*  TonyJM
+*  [Bianca](https://www.instagram.com/rifuhime)
+*  [TonyJM](https://www.instagram.com/tonyjm2.0/)
 *  Joe
-*  supergamerdz 
-*  bruhboh
-*  Destiny
+*  [supergamerdz](https://instagram.com/super_gamerdz) 
+*  [bruhboh](https://www.instagram.com/bruh.boh/)
+*  [Destiny](https://www.instagram.com/destiny.ctrl/)
 *  Gift voxel model by [bong_voxel](https://sketchfab.com/3d-models/gift-01-fee6804ad805448ca5cf29f85cb722ca) 
 
 **Let's make Kiko's birthday unforgettable!**
