@@ -4,7 +4,7 @@ This repository is a collaborative effort to shower Kiko with love and celebrate
 
 Live page: https://tinyurl.com/kikoday24 
 
-Planning Discord: https://discord.com/invite/swVhrAD9Sh
+Planning Discord + individual drawings/signatures: https://discord.com/invite/swVhrAD9Sh
 
 Wheatcord: https://discord.gg/wheat
 
