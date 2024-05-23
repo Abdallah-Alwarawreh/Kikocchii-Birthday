@@ -16,7 +16,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 
 *  Developed by Abdallah Alwarawreh
 *  Hosted by [Wheatzies](https://www.instagram.com/wheatzies/)
-*  Cloudy
+*  [Cloudy](https://www.instagram.com/clou.idy)
 *  [Poipoi](https://www.instagram.com/poipoipoipoipoipoipoipii/)
 *  [Soop](https://www.instagram.com/callmestoopidlol)
 *  Gwa
