@@ -15,7 +15,8 @@ document.body.appendChild(renderer.domElement);
 const controls = new OrbitControls( camera, renderer.domElement );
 
 const loader = new GLTFLoader();
-
+const floader = new FontLoader();
+var text;
 var gift, giftTween;
 loader.load('models/gift.glb', function (gltf) {
 	gltf.scene.traverse( function( node ) {
@@ -35,84 +36,84 @@ loader.load('models/gift.glb', function (gltf) {
 		.repeat(Infinity)
 		.start();
 	*/
+	
+	floader.load(
+		'fonts/Roboto_Regular.json',
+		function ( font ) {
+			const geometry = new TextGeometry('Open me!', {
+				font: font,
+				size: 0.7, 
+				depth: 0.2,
+				curveSegments: 12,
+				bevelEnabled: true,
+				bevelThickness: 0.01,
+				bevelSize: 0.01,
+				bevelOffset: 0,
+				bevelSegments: 5
+			});
+			
+			geometry.center();
+			text = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: 0xffffff } ) );
+			text.position.set(0, 3, 0);
+			text.rotation.set(0, 0, 0);
+			text.scale.set(0, 0, 0)
+			scene.add(text);
+			text.parent = scene
+	
+			new TWEEN.Tween(text.scale)
+				.to({ x: 1, y: 1, z: 1 }, 1000)
+				.easing(TWEEN.Easing.Quadratic.Out)
+				.start();
+			// Bounce up and dowm
+			const bounce = () => {
+				new TWEEN.Tween(text.position)
+					.to({ y: 4 }, 500)
+					.easing(TWEEN.Easing.Quadratic.Out)
+					.start()
+					.onComplete(() => {
+						new TWEEN.Tween(text.position)
+							.to({ y: 3 }, 500)
+							.easing(TWEEN.Easing.Quadratic.In)
+							.start();
+					})
+			}
+	
+			setInterval(bounce, 1000)
+			bounce()
+	
+			loadimages()
+			document.getElementById("loading").style.opacity = 0;
+			setTimeout(function(){
+				document.getElementById("loading").style.display = "none";
+			}, 1000)
+	
+			const listener = new THREE.AudioListener();
+			camera.add( listener );
+			
+			// create a global audio source
+			const sound = new THREE.Audio( listener );
+	
+			// load a sound and set it as the Audio object's buffer
+			const audioLoader = new THREE.AudioLoader();
+			audioLoader.load( 'music.mp3', function( buffer ) {
+				sound.setBuffer( buffer );
+				sound.setLoop( true );
+				sound.setVolume( 0.5 );
+				sound.play();
+			});
+	
+			window.addEventListener('click', onPointerDown);
+			render();
+		},
+		function ( xhr ) {
+			console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
+		}
+	);
+	
 }, undefined, function (error) {
 	console.error(error);
 });
 
-const floader = new FontLoader();
-var text;
-const font = floader.load(
-	'fonts/Roboto_Regular.json',
-	function ( font ) {
-		const geometry = new TextGeometry('Open me!', {
-			font: font,
-			size: 0.7, 
-			depth: 0.2,
-			curveSegments: 12,
-			bevelEnabled: true,
-			bevelThickness: 0.01,
-			bevelSize: 0.01,
-			bevelOffset: 0,
-			bevelSegments: 5
-		});
-		
-		geometry.center();
-		text = new THREE.Mesh( geometry, new THREE.MeshBasicMaterial( { color: 0xffffff } ) );
-		text.position.set(0, 3, 0);
-		text.rotation.set(0, 0, 0);
-		text.scale.set(0, 0, 0)
-		scene.add(text);
-		text.parent = scene
-
-		new TWEEN.Tween(text.scale)
-			.to({ x: 1, y: 1, z: 1 }, 1000)
-			.easing(TWEEN.Easing.Quadratic.Out)
-			.start();
-		// Bounce up and dowm
-		const bounce = () => {
-			new TWEEN.Tween(text.position)
-				.to({ y: 4 }, 500)
-				.easing(TWEEN.Easing.Quadratic.Out)
-				.start()
-				.onComplete(() => {
-					new TWEEN.Tween(text.position)
-						.to({ y: 3 }, 500)
-						.easing(TWEEN.Easing.Quadratic.In)
-						.start();
-				})
-		}
-
-		setInterval(bounce, 1000)
-		bounce()
-
-		loadimages()
-		document.getElementById("loading").style.opacity = 0;
-		setTimeout(function(){
-			document.getElementById("loading").style.display = "none";
-		}, 1000)
-
-		const listener = new THREE.AudioListener();
-		camera.add( listener );
-		
-		// create a global audio source
-		const sound = new THREE.Audio( listener );
-
-		// load a sound and set it as the Audio object's buffer
-		const audioLoader = new THREE.AudioLoader();
-		audioLoader.load( 'music.mp3', function( buffer ) {
-			sound.setBuffer( buffer );
-			sound.setLoop( true );
-			sound.setVolume( 0.5 );
-			sound.play();
-		});
-
-		window.addEventListener('click', onPointerDown);
-		render();
-	},
-	function ( xhr ) {
-		console.log( (xhr.loaded / xhr.total * 100) + '% loaded' );
-	}
-);
 
 // #region Light
 const light = new THREE.HemisphereLight( 0xffffbb, 0x080820, 5 );
