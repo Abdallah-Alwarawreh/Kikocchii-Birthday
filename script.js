@@ -224,6 +224,33 @@ function loadimages(){
 	}
 	scene.add(ImgsGroup);
 	console.log(ImgsGroup)
+
+	const video = document.createElement('video');
+	video.style.display = 'none';
+	video.muted = true;
+	video.autoplay = true;
+	video.loop =  true;
+	video.setAttribute('playsinline', true);
+
+	const source = document.createElement('source');
+	source.setAttribute('src', 'imgs/secret.mp4');
+
+	video.appendChild(source);
+	document.body.appendChild(video);
+  video.play()
+	const videoTexture01 = new THREE.VideoTexture(video);
+	videoTexture01.minFilter = THREE.LinearFilter;
+	videoTexture01.magFilter = THREE.LinearFilter;
+	videoTexture01.format = THREE.RGBFormat;
+	const material = new THREE.MeshBasicMaterial({ map: videoTexture01, transparent: true, side: THREE.DoubleSide });
+			
+	const geometry = RoundedRectangle(7,7,2,5)
+	const mesh = new THREE.Mesh(geometry, material);
+	
+	mesh.position.set(0, -25, 0);
+	mesh.rotation.set(0, 0, 0);
+	mesh.lookAt(gift.position);
+	scene.add(mesh)
 }
 
 var m = 5;
