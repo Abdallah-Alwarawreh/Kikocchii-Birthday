@@ -24,7 +24,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 *  Swalmi
 *  Berry
 *  [Sydboy](https://www.instagram.com/sydboyu/)
-*  Smellvin
+*  [Smellvin](https://www.instagram.com/oraclumi/)
 *  Generik_slayer 
 *  Larma
 *  [Poño](https://www.instagram.com/ppppppponx)
@@ -34,7 +34,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 *  Teyoid
 *  Sword
 *  [Storm](https://www.instagram.com/storm132_)
-*  Link
+*  [Link](https://www.instagram.com/li.n.k)
 *  [Pee](https://www.instagram.com/peepyon_)
 *  [Homie](https://www.instagram.com/intellectualhomie)
 *  [Yokaeru](https://www.instagram.com/louieyoka) 
