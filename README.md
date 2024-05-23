@@ -21,7 +21,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 *  [Soop](https://www.instagram.com/callmestoopidlol)
 *  Gwa
 *  Slimycracker
-*  Swalmi
+*  [Swalmi](https://www.tiktok.com/@swala_mi)
 *  Berry
 *  [Sydboy](https://www.instagram.com/sydboyu/)
 *  [Smellvin](https://www.instagram.com/oraclumi/)
