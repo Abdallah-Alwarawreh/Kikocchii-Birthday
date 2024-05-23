@@ -102,7 +102,7 @@ loader.load('models/gift.glb', function (gltf) {
 				sound.play();
 			});
 	
-			window.addEventListener('click', onPointerDown);
+			document.addEventListener('click', onPointerDown);
 			render();
 		},
 		function ( xhr ) {
