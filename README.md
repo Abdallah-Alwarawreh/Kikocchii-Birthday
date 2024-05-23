@@ -41,7 +41,7 @@ Spread the birthday cheer by following Kiko on Instagram: [https://www.instagram
 *  Drimi
 *  [Bianca](https://www.instagram.com/rifuhime)
 *  [TonyJM](https://www.instagram.com/tonyjm2.0/)
-*  Joe
+*  [Joe](https://www.instagram.com/jm.mccray/)
 *  [supergamerdz](https://instagram.com/super_gamerdz) 
 *  [bruhboh](https://www.instagram.com/bruh.boh/)
 *  [Destiny](https://www.instagram.com/destiny.ctrl/)
