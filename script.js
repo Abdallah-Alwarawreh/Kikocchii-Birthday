@@ -180,7 +180,7 @@ function onPointerDown(event) {
 								.start()
 								.onComplete(() => {
 									// redierct to gift
-									window.location.href = "https://cdn.discordapp.com/attachments/1237619515655720980/1242910456793006213/Untitled10_20240522214159.png?ex=664f8e11&is=664e3c91&hm=00e6d4e65d97f8afff3c1647e6d2577e59b0af765c8b5faaff12f4692a12022b&";
+									window.location.href = "https://abdallah-alwarawreh.github.io/Kikocchii-Birthday/imgs/final_kiko_collage.png";
 								})
 						})
 				})
